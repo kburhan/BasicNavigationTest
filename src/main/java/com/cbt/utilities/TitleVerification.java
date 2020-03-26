@@ -26,7 +26,7 @@ public class TitleVerification {
 
         for (int i = 0; i <titleList.size()-1 ; i++) {
 
-            StringUtility.theResult(titleList.get(i),titleList.get(i+1)); 
+            StringUtility.theResult(titleList.get(i),titleList.get(i+1)); // 0-1 , 1-2
 
         }
             StringUtility.theResult(titleList.get(0),titleList.get(2));
