@@ -199,6 +199,8 @@ public class Assignment {
 
         driver.findElement(By.id("p_85/2470955011")).click();
 
+        Assert.assertTrue(driver.findElement(By.id("brandsRefinements")).isDisplayed());
+
 
 
 
