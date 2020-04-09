@@ -49,6 +49,12 @@ public class TestCase6 {
         driver.findElement(By.cssSelector("td[class='from']")).click();
 
 
+        String expected1 ="Thank you for subscribing to practice.cybertekschool.com!";
+        String actual1 =  "Thank you for subscribing to practice.cybertekschool.com!";
+        Assert.assertEquals(actual, expected);
+
+
+
 
 
 
